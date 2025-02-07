@@ -1,4 +1,4 @@
-# Problem: Given a Table of Sales_purchase, Write a query to find the total no.of sales where pruchase is same but on different month and year.
+-- Problem: Given a Table of Sales_purchase, Write a query to find the total no.of sales where pruchase is same but on different month and year.
 
 CREATE TABLE `sale_purchase` (
   `id` int(6) unsigned NOT NULL,
@@ -9,7 +9,7 @@ CREATE TABLE `sale_purchase` (
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
 
-# Insert few values into the table
+-- Insert few values into the table
 INSERT INTO `sale_purchase` (`id`, `purchase`, `sale`,`year`,`month`)
 VALUES
   ('1', '100', '106','2011','Apr'),
