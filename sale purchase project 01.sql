@@ -34,4 +34,4 @@ GROUP BY year, month
 HAVING COUNT(*) = 1;
 
 SELECT SUM(t)
-FROM total
+FROM total;
